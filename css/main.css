@@ -37,9 +37,87 @@ section{
     padding:100px 200px 
 }
 .main{
-    display: flex;
+    
     width:100%;
     min-height: 100vh;
-   
+    display: flex;
     align-items : center;
+    background-image: url(/fotograflar/wallpaperbetter.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.main h2{
+color:cadetblue;
+font-size: 1.4em;
+font-weight:500;
+} 
+.main h2 span{
+    display: inline-block;
+    margin-top: 10px;
+    color:#4e9eff;
+    font-size: 1.5em;
+    font-weight: 600 ;
+}
+.main h3 {
+    color:cadetblue;
+    font-size: 1em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30
+}
+.main-btn{
+    color:white;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600 ;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    transition: 0.7s ease;
+}
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.sosyalMedyaIconlar a{
+    color: white;
+    font-size: 1.7em;
+    padding-right:30px;
+
+}
+.title{
+    color:red;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    font-size: 2.5em;
+    font-weight: 700; 
+}
+.diller{
+    display:flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.kart{
+    background-color:white;
+    box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+    border-radius: 10px;
+     padding:25px;
+     margin: 25px;
+     transition: 0.7s ease;
+}
+.info{
+    color:burlywood;
+}
+.kart:hover{
+    
+    transform: scale(1.1);
 }
