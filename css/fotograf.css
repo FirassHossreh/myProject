@@ -7,16 +7,21 @@
     scroll-behavior: smooth;
 }
 .a{
-        margin:10px  ;
+
+        width: 200px;
+        height:200px;
+        margin: 10px;
+        margin-left: 100px;
         transition: 0.7s ease;
         background-color:white;
         box-shadow: 0 5px 25px rgba(1 1 1 /15%);
         border-radius: 10px;
+        cursor: pointer;
         transition: 0.7s ease;
 }
 
-col a:hover { 
-    transform: scale(1.1);
+.a:hover { 
+    transform: scale(1.2);
 }
 .baslik{
     display: flex;
@@ -50,4 +55,9 @@ header{
 }
 .navigation a:hover{
     color:rgb(137, 55, 78);
+}
+#gallery-model .model-img{
+    width: 100%;
+margin:100px
+
 }

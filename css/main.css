@@ -116,8 +116,13 @@ font-weight:500;
 }
 .info{
     color:burlywood;
+    font-size: 1.1em;
+    font-weight: 600 ;
+    display: flex;
+    justify-content: center;
 }
 .kart:hover{
     
     transform: scale(1.1);
 }
+
