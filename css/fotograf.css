@@ -11,7 +11,7 @@
         width: 200px;
         height:200px;
         margin: 10px;
-        margin-left: 100px;
+        margin-left: 50px;
         transition: 0.7s ease;
         background-color:white;
         box-shadow: 0 5px 25px rgba(1 1 1 /15%);
@@ -27,7 +27,7 @@
     display: flex;
     justify-content: center;
     color:red;
-    padding-top:80px; 
+    padding-top:100px; 
 }
 header{
     background-color: aliceblue;
@@ -58,6 +58,52 @@ header{
 }
 #gallery-model .model-img{
     width: 100%;
-margin:100px
+     margin:100px;
 
 }
+ul.breadcrumb{
+    background-color: rgb(222, 229, 234);
+    list-style: none;
+    font-size: 12px;
+    padding: 15; 
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom:15;
+    position:fixed;
+    }
+ul.breadcrumb li{
+    display:inline-block;
+    margin-top:5px;
+    padding-left: 4px;
+    color:#0a49f6;
+    text-transform: uppercase;
+     box-shadow: 0 5px 100px rgba(1 1 1 /15%);
+     border-radius: 10px;
+     transition: 0.7s ease;
+
+}
+ul.breadcrumb li:hover{
+    transform: scale(1.1);
+}
+ul.breadcrumb li+li:before{
+    content: "/\00a0";
+    color:black
+}
+ul.breadcrumb li a{
+    display:flex ;
+     text-decoration: none;
+     color:red;
+     text-transform: uppercase;
+     box-shadow: 0 5px 100px rgba(1 1 1 /15%);
+     border-radius: 10px;
+     font-weight: 600; 
+     transition: 0.7s ease;
+
+}
+ul.breadcrumb li a:hover{
+    transform: scale(1.1);
+
+}
+
+
+

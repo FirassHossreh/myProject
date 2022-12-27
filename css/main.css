@@ -85,6 +85,8 @@ font-weight:500;
 .main-btn:hover {
     background-color: #0a49f6;
     transform: scale(1.1);
+    color:aliceblue
+  
 }
 .sosyalMedyaIconlar a{
     color: white;
@@ -125,4 +127,42 @@ font-weight:500;
     
     transform: scale(1.1);
 }
+ul.breadcrumb{
+    background-color: rgb(222, 229, 234);
+    list-style: none;
+    font-size: 12px;
+    padding: 15; 
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom:15;
+    position:fixed;
+
+
+    }
+ul.breadcrumb li{
+    display:inline-block;
+    padding-left: 4px;
+    color:#0a49f6
+    
+}
+ul.breadcrumb li+li:before{
+    content: "/\00a0";
+    color:black
+}
+ul.breadcrumb li a{
+    display:flex ;
+     text-decoration: none;
+     color:red;
+     text-transform: uppercase;
+     box-shadow: 0 5px 100px rgba(1 1 1 /15%);
+     border-radius: 10px;
+     font-weight: 600; 
+     transition: 0.7s ease;
+     margin-top: 5px;
+}
+ul.breadcrumb li a:hover{
+    transform: scale(1.1);
+
+}
+
 
