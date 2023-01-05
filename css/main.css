@@ -42,7 +42,7 @@ section{
     min-height: 100vh;
     display: flex;
     align-items : center;
-    background-image: url(/fotograflar/wallpaperbetter.jpg);
+    background-image: url(../fotograflar/wallpaperbetter.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
